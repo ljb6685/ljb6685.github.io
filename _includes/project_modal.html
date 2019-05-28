@@ -11,22 +11,22 @@
     </div>
     <div class="project_info">
       <div class="row">
-        <div class="col s3 m2 info_type">
+        <div class="col s3 m2 info_type" style="width:30%; padding: 5pt; font-weight: bold;">
           title:
         </div>
-        <h4 class="col s9 m10">{{project.title}}</h4>
+        <h4 class="col s9 m10" style="width: 70%; align-content: right;  padding: 5pt; text-align: right; background-color: rgb(85, 85, 85); border-radius: 10px;">{{project.title}}</h4>
       </div>
       <div class="row">
-        <div class="col s3 m2 info_type">
+        <div class="col s3 m2 info_type" style="width:30%; padding: 5pt; font-weight: bold;">
           description:
         </div>
-        <p class="description col s9 m10">{{project.description}}</p>
+        <p class="description col s9 m10" style="width: 70%; align-content: right;  padding: 5pt; text-align: right; background-color: rgb(85, 85, 85); border-radius: 10px;">{{project.description}}</p>
       </div>
       <div class="row">
-        <div class="col s3 m2 info_type">
+        <div class="col s3 m2 info_type" style="width:30%; padding: 5pt; font-weight: bold;">
           skills:
         </div>
-        <div class="col s9 m10">
+        <div class="col s9 m10" style="width: 70%; align-content: right;  padding: 5pt; text-align: right; background-color: rgb(85, 85, 85); border-radius: 10px;">
           {% for tech in project.technologies %}
             <i class="devicon-{{tech}} project_icons"></i>
           {% endfor %}
