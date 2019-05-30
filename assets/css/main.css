@@ -800,22 +800,25 @@ button.fill:hover:before {
   font-size: 1.1rem; }
 
 .cover {
-  background-color: #f9f0ae;
-  width: 40%;
+  background-color: rgb(196, 195, 195);
+  width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0; }
+  margin: auto;   
+  border: 2pt solid grey;
+  box-shadow: 0 0 50px 10px white inset; }
 
 .skills {
   margin-bottom: 40px;
   color: #fcf5c7; }
 
 .project {
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  height: 270px;
   margin: auto;
   margin-top: 40px;
-  box-shadow: 0 0 1000px 10px black inset; }
+  padding: 5pt;  
+  border: 1pt solid grey;
+  box-shadow: 0 0 50px 10px white inset; }
 
 .skill_icon {
   color: #fcf5c7;
