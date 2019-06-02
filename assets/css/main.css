@@ -581,8 +581,8 @@ nav ul li {
 .heading {
   color: #292929;
   font-weight: 200px;
-  font-size: 2.3rem;
-  font-family: "Josefin Slab", serif; }
+  font-size: 1.8rem;
+  font-family: dubai; }
 
 .homepage-section {
   display: block;
@@ -596,8 +596,8 @@ nav ul li {
   margin-bottom: 5px; }
 
 .quote {
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 700;
   text-indent: 15%;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif; }
@@ -614,10 +614,10 @@ nav ul li {
   font-size: 3rem; }
 
 .skill_names {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #292929;
-  font-style: "Raleway", sans-serif;
-  font-weight: 200;
+  font-style: dubai;
+  font-weight: 300;
   margin-left: 10px; }
 
 .my_container {
@@ -647,7 +647,8 @@ nav ul li {
 
 .footer_titles {
   font-family: "Josefin Slab", serif;
-  font-size: 35px; }
+  font-size: 25px;
+  font-weight: 1000; }
 
 .footer_icons {
   font-size: 30px !important; }
@@ -826,7 +827,7 @@ button.fill:hover:before {
 
 .about_skill_icon {
   color: #292929;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 .box {
   height: 50vh; }
@@ -862,9 +863,10 @@ button.fill:hover:before {
   filter: sepia(0.3); }
 
 .about_paragraph {
-  font-size: 1.8em;
-  letter-spacing: +0.5px;
-  font-weight: 200; }
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: +0px;
+  font-weight: 400; }
 
 /* label color */
 .input-field label {

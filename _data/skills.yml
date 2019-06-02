@@ -1,4 +1,4 @@
-- name: web
+- name: Web
   skills:
     - class: html5-plain
       skill_name: HTML5
@@ -11,26 +11,26 @@
     - class: jquery-plain
       skill_name: jQuery
 
-- name: languages
+- name: Language
   skills:
     - class: javascript-plain
       skill_name: JavaScript
     - class: python-plain
       skill_name: Python   
 
-- name: databases
+- name: Database
   skills:
     - class: postgresql-plain
       skill_name: Postgresql
     - class: mongodb-plain
       skill_name: MongoDB
 
-- name: frontend frameworks
+- name: Frontend Frameworks
   skills:
     - class: react-plain
-      skill_name: React
+      skill_name: React    
 
-- name: backend frameworks
+- name: Backend Frameworks
   skills:
     - class: express-original
       skill_name: Express
@@ -39,7 +39,7 @@
     - class: django-plain
       skill_name: Django
 
-- name: devops
+- name: Devops
   skills:
     - class: git-plain
       skill_name: Git
