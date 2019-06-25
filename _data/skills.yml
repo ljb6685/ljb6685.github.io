@@ -16,7 +16,11 @@
     - class: javascript-plain
       skill_name: JavaScript
     - class: python-plain
-      skill_name: Python   
+      skill_name: Python
+    - class: java-plain
+      skill_name: Java
+    - class: c-plain
+      skill_name: C    
 
 - name: Database
   skills:
@@ -25,19 +29,16 @@
     - class: mongodb-plain
       skill_name: MongoDB
 
-- name: Frontend Frameworks
+- name: Frameworks
   skills:
     - class: react-plain
-      skill_name: React    
-
-- name: Backend Frameworks
-  skills:
+      skill_name: React / React Native
     - class: express-original
       skill_name: Express
     - class: nodejs-plain
       skill_name: NodeJS
     - class: django-plain
-      skill_name: Django
+      skill_name: Django / Flask   
 
 - name: Devops
   skills:
@@ -47,7 +48,19 @@
       skill_name: GitHub
     - class: heroku-original
       skill_name: Heroku
-   
+
+- name: IDEs
+  skills:    
+    - class: visualstudio-plain
+      skill_name: Visual Studio
+    - class: atom-original
+      skill_name: Atom
+    - class: pycharm-plain
+      skill_name: Pycharm
+    - class: android-plain
+      skill_name: Android Studio
+    - class: intellij-plain
+      skill_name: IntelliJ IDEA   
 
 # - name: testing
 #   skills:
