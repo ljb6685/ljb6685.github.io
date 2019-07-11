@@ -35,7 +35,7 @@
   overflow-y: hidden !important;
 }
 
-#projects, .about-me, #algorithms {
+#projects, .about-me, #resume {
 
   h3 {
     font-family: 'Abril Fatface', cursive;
@@ -175,7 +175,7 @@ i {
   background-color: darkgrey;
 }
 
-#algorithms p, .algorithm-content p {
+#resume p, .resume-content p {
   color: white !important;
   margin: 4%;
   font-size: 25px;
@@ -185,22 +185,22 @@ i {
   font-family: $font2;
 }
 
-#algorithms h3 {
+#resume h3 {
   color: white;
 }
 
-.algorithm h3 {
+.resume h3 {
   color: white;
   font-family: 'Abril Fatface', cursive;
   font-weight: 600;
   letter-spacing: 1.2;
 }
 
-#algorithms a {
+#resume a {
   color: #2E294E;
 }
 
-#algorithms a:hover {
+#resume a:hover {
   opacity: 0.9;
 }
 

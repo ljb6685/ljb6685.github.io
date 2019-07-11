@@ -1,8 +1,8 @@
 - id: 2
   title: React Blog
   url: https://blogj2.herokuapp.com/
-  github_url: https://github.com/ljb6685
-  description: Simple blog webpage using React
+  github_url: https://github.com/ljb6685/blogj2
+  description: Simple blog web application using React
   technologies: [
                   html5-plain,
                   css3-plain-wordmark,
@@ -20,41 +20,41 @@
     '/assets/images/project_images/react_blog/blog_img.png'   
   ]
 
-- id: 3
-  title: TBD
-  url: https://blogj2.herokuapp.com/
-  github_url: https://github.com/ljb6685
-  description: TBD
-  technologies: [
-                  html5-plain,
-                  css3-plain-wordmark,
-                  javascript-plain,
-                  ruby-plain,
-                  sinatra-plain,
-                  postgresql-plain,
-                  heroku-original,
-                  materialize-plain
-                ]
-  cover: /assets/images/project_covers/hack-overflow-cover.png
-  qrcode: /assets/images/QRCodeImg.jpg
-  images: [
-    '/assets/images/project_covers/hack-overflow-cover.png'
-  ]
-- id: 4
-  title: TBD
-  url: https://blogj2.herokuapp.com/
-  github_url: https://github.com/ljb6685
-  description: TBD
-  technologies: [
-                  html5-plain,
-                  css3-plain-wordmark,
-                  javascript-plain
-                ]
-  cover: /assets/images/project_covers/shoot-things-game-cover.png
-  qrcode: /assets/images/QRCodeImg.jpg
-  images: [
-    '/assets/images/project_covers/shoot-things-game-cover.png'
-  ]
+# - id: 3
+#   title: TBD
+#   url: 
+#   github_url: https://github.com/ljb6685
+#   description: TBD
+#   technologies: [
+#                   html5-plain,
+#                   css3-plain-wordmark,
+#                   javascript-plain,
+#                   ruby-plain,
+#                   sinatra-plain,
+#                   postgresql-plain,
+#                   heroku-original,
+#                   materialize-plain
+#                 ]
+#   cover: /assets/images/project_covers/hack-overflow-cover.png
+#   qrcode: /assets/images/QRCodeImg.jpg
+#   images: [
+#     '/assets/images/project_covers/hack-overflow-cover.png'
+#   ]
+# - id: 4
+#   title: TBD
+#   url: 
+#   github_url: https://github.com/ljb6685
+#   description: TBD
+#   technologies: [
+#                   html5-plain,
+#                   css3-plain-wordmark,
+#                   javascript-plain
+#                 ]
+#   cover: /assets/images/project_covers/shoot-things-game-cover.png
+#   qrcode: /assets/images/QRCodeImg.jpg
+#   images: [
+#     '/assets/images/project_covers/shoot-things-game-cover.png'
+#   ]
 # - name: Tic-tac-toe
 #   url: https://dbc-engage-me.herokuapp.com/
 #   github_url: https://github.com/LevytsRoman/EngageMe

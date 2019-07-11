@@ -20,7 +20,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
 
     $(this.oldContainer).addClass("barba-old-container");
     var le =
-      $(".algorithms-border").position().left -
+      $(".resume-border").position().left -
       $(".about-border").position().left;
 
     //fixes displaced borders due to glitch animation
@@ -74,7 +74,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
     });
 
     var pro3 = new Promise((resolve, reject) => {
-      $(".algorithms-border").animate(
+      $(".resume-border").animate(
         {
           width: "100%"
         },
@@ -86,7 +86,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
     });
 
     var pro4 = new Promise((resolve, reject) => {
-      $(".contact-border").animate(
+      $(".skills-border").animate(
         {
           height: "100%"
         },
@@ -102,12 +102,12 @@ var HideShowTransition = Barba.BaseTransition.extend({
       // This line below fixes a weird bug that only happens on one page ...
       $(".top-row").css("background-color", "transparent");
 
-      var contactWidth = $(".contact").width(),
-        contactHeight = $(".contact").height(),
+      var contactWidth = $(".skills").width(),
+        contactHeight = $(".skills").height(),
         projectsWidth = $(".projects").width(),
         projectsHeight = $(".projects").height(),
-        algorithmsWidth = $(".algorithms").width(),
-        algorithmsHeight = $(".algorithms").height(),
+        algorithmsWidth = $(".resume").width(),
+        algorithmsHeight = $(".resume").height(),
         aboutWidth = $(".about").width(),
         aboutHeight = $(".about").height();
 
@@ -121,7 +121,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
           400
         );
       $(this.oldContainer)
-        .find(".contact")
+        .find(".skills")
         .animate(
           {
             left: "+=" + contactWidth + "px",
@@ -139,7 +139,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
           400
         );
       $(this.oldContainer)
-        .find(".algorithms")
+        .find(".resume")
         .animate(
           {
             left: "-=" + algorithmsWidth + "px",
@@ -157,10 +157,10 @@ var HideShowTransition = Barba.BaseTransition.extend({
               .find(".projects")
               .finish();
             $(this.oldContainer)
-              .find(".algorithms")
+              .find(".resume")
               .finish();
             $(this.oldContainer)
-              .find(".contact")
+              .find(".skills")
               .finish();
             $(".my-borders").finish();
             $("html").css("overflow-y", "visible");
@@ -186,23 +186,23 @@ var FadeTransition = Barba.BaseTransition.extend({
           width: "1px"
         });
         $(".about-border").css({ height: "100%" });
-        $(".contact-border").css({ height: "100%" });
+        $(".skills-border").css({ height: "100%" });
         $(".projects-border").css({ width: "100%" });
-        $(".algorithms-border").css({ width: "100%" });
-        var contactXPos = $(".contact").position().left,
-          contactYPos = $(".contact").position().top,
+        $(".resume-border").css({ width: "100%" });
+        var contactXPos = $(".skills").position().left,
+          contactYPos = $(".skills").position().top,
           projectsXPos = $(".projects").position().left,
           projectsYPos = $(".projects").position().top,
-          algorithmsXPos = $(".algorithms").position().left,
-          algorithmsYPos = $(".algorithms").position().top,
+          algorithmsXPos = $(".resume").position().left,
+          algorithmsYPos = $(".resume").position().top,
           aboutXPos = $(".about").position().left,
           aboutYPos = $(".about").position().top;
-        (contactWidth = $(".contact").width()),
-          (contactHeight = $(".contact").height()),
+        (contactWidth = $(".skills").width()),
+          (contactHeight = $(".skills").height()),
           (projectsWidth = $(".projects").width()),
           (projectsHeight = $(".projects").height()),
-          (algorithmsWidth = $(".algorithms").width()),
-          (algorithmsHeight = $(".algorithms").height()),
+          (algorithmsWidth = $(".resume").width()),
+          (algorithmsHeight = $(".resume").height()),
           (aboutWidth = $(".about").width()),
           (aboutHeight = $(".about").height());
 
@@ -213,7 +213,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             top: "-=" + aboutHeight + "px"
           });
         $(this.newContainer)
-          .find(".contact")
+          .find(".skills")
           .css({
             left: "+=" + contactWidth + "px",
             top: "+=" + contactHeight + "px"
@@ -225,7 +225,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             top: "-=" + projectsHeight + "px"
           });
         $(this.newContainer)
-          .find(".algorithms")
+          .find(".resume")
           .css({
             left: "-=" + algorithmsWidth + "px",
             top: "+=" + algorithmsHeight + "px"
@@ -248,7 +248,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
         var pro2 = new Promise((resolve, reject) => {
           $(this.newContainer)
-            .find(".contact")
+            .find(".skills")
             .animate(
               {
                 left: "-=" + contactWidth + "px",
@@ -276,7 +276,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
         var pro4 = new Promise((resolve, reject) => {
           $(this.newContainer)
-            .find(".algorithms")
+            .find(".resume")
             .animate(
               {
                 left: "+=" + algorithmsWidth + "px",
@@ -344,7 +344,7 @@ var FadeTransition = Barba.BaseTransition.extend({
           });
 
           var proBorder3 = new Promise((resolve, reject) => {
-            $(".algorithms-border").animate(
+            $(".resume-border").animate(
               {
                 width: "0%"
               },
@@ -356,7 +356,7 @@ var FadeTransition = Barba.BaseTransition.extend({
           });
 
           var proBorder4 = new Promise((resolve, reject) => {
-            $(".contact-border").animate(
+            $(".skills-border").animate(
               {
                 height: "0%"
               },

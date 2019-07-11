@@ -1,6 +1,6 @@
 about:
   url: /about
-  heading: Me
+  heading: About Me
   words: Hi, My name is Michael
   class: m5 about
   border: about
@@ -14,11 +14,11 @@ resume:
   url: /resume
   heading: Resume
   words: Check out or download my resume
-  class: m6 algorithms
-  border: algorithms
+  class: m6 resume
+  border: resume
 skills:
   url: /skills
   heading: Skills
   words: A list of skills
-  class: m6 contact
+  class: m6 skills
   border: skills
