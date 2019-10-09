@@ -20,12 +20,16 @@
     - class: java-plain
       skill_name: Java
     - class: c-plain
-      skill_name: C    
+      skill_name: C
+    - class: php-plain
+      skill_name: PHP    
 
 - name: Database
   skills:
+    - class: mysql-plain-wordmark
+      skill_name: MySQL   
     - class: postgresql-plain
-      skill_name: Postgresql
+      skill_name: PostgreSQL
     - class: mongodb-plain
       skill_name: MongoDB
 
@@ -40,14 +44,18 @@
     - class: django-plain
       skill_name: Django / Flask   
 
-- name: Devops
+- name: Devops/Others
   skills:
     - class: git-plain
       skill_name: Git
     - class: github-plain
       skill_name: GitHub
-    - class: heroku-original
-      skill_name: Heroku
+    - class: docker-plain-wordmark
+      skill_name: Docker
+    - class: d3js-plain
+      skill_name: D3
+    - class: linux-plain
+      skill_name: Linux
 
 - name: IDEs
   skills:    
