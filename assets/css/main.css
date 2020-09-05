@@ -599,9 +599,11 @@ nav ul li {
 .quote {
   font-size: 2.5rem;
   font-weight: 700;
-  text-indent: 15%;
+  text-indent: 0%;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+ }
 
 .author {
   padding-right: 5%;
