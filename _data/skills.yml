@@ -16,25 +16,31 @@
     - class: javascript-plain
       skill_name: JavaScript
     - class: python-plain
-      skill_name: Python
+      skill_name: Python / R
     - class: java-plain
       skill_name: Java
     - class: c-plain
-      skill_name: C
+      skill_name: C / C#
     - class: php-plain
       skill_name: PHP    
 
 - name: Database
   skills:
+    - class: devicon-plain
+      skill_name: MS-SQL
+    - class: oracle-original
+      skill_name: Oracle DB
     - class: mysql-plain-wordmark
       skill_name: MySQL   
     - class: postgresql-plain
       skill_name: PostgreSQL
     - class: mongodb-plain
-      skill_name: MongoDB
+      skill_name: MongoDB    
 
 - name: Frameworks
   skills:
+    - class: dot-net-plain
+      skill_name: .Net Framework
     - class: react-plain
       skill_name: React / React Native
     - class: express-original
@@ -42,7 +48,7 @@
     - class: nodejs-plain
       skill_name: NodeJS
     - class: django-plain
-      skill_name: Django / Flask   
+      skill_name: Django / Flask     
 
 - name: Devops/Others
   skills:
@@ -52,8 +58,8 @@
       skill_name: GitHub
     - class: docker-plain-wordmark
       skill_name: Docker
-    - class: d3js-plain
-      skill_name: D3
+    - class: amazonwebservices-original
+      skill_name: AWS / Azure
     - class: linux-plain
       skill_name: Linux
 
