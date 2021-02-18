@@ -20,26 +20,24 @@
     '/assets/images/project_images/react_blog/blog_img.png'   
   ]
 
-# - id: 3
-#   title: TBD
-#   url: 
-#   github_url: https://github.com/ljb6685
-#   description: TBD
-#   technologies: [
-#                   html5-plain,
-#                   css3-plain-wordmark,
-#                   javascript-plain,
-#                   ruby-plain,
-#                   sinatra-plain,
-#                   postgresql-plain,
-#                   heroku-original,
-#                   materialize-plain
-#                 ]
-#   cover: /assets/images/project_covers/hack-overflow-cover.png
-#   qrcode: /assets/images/QRCodeImg.jpg
-#   images: [
-#     '/assets/images/project_covers/hack-overflow-cover.png'
-#   ]
+- id: 3
+  title: Data Visualization
+  url: /assets/Report_Sample.pdf
+  github_url: https://github.com/ljb6685/ljb6685.github.io/blob/master/assets/Report_Sample.pdf  
+  description: Sample data visualization report of user behavioral patterns using Power BI
+
+  technologies: [
+                  microsoftsqlserver-plain-wordmark,
+                  windows8-original,
+                  googlecloud-plain,
+                  dot-net-plain,
+                  python-plain
+                ]
+  cover: /assets/images/project_covers/report_cover.png
+  qrcode: 
+  images: [
+    '/assets/images/project_covers/report_cover.png'
+  ]
 # - id: 4
 #   title: TBD
 #   url: 
